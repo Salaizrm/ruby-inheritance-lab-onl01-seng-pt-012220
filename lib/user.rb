@@ -19,8 +19,7 @@ class User
     @last_name
   end
   
-  def learn
-    Student.knowledge
+  def teach
   end
   
   def knowledge
