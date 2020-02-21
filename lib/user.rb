@@ -19,9 +19,5 @@ class User
     @last_name
   end
   
-  def knowledge
-    @knowledge = []
-  end
- 
 end
   
