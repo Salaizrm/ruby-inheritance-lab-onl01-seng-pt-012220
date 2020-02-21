@@ -19,5 +19,7 @@ class User
     @last_name
   end
   
+  def learn 
+  
 end
   
