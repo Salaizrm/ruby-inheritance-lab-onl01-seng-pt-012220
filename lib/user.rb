@@ -19,8 +19,8 @@ class User
     @last_name
   end
   
-  def learn (knowledge)
-    
+  def learn
+    @knowledge << Student
   end
   
   def knowledge
