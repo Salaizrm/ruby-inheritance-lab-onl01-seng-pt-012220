@@ -7,8 +7,8 @@ class User
   def intitialize (first_name, last_name)
     @first_name = first_name
     @last_name = last_name
-    @knowledge = []
-    @knowledge << self
+    @@knowledge = []
+    @@knowledge << self
   end
   
   def first_name
