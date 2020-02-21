@@ -20,6 +20,7 @@ class User
   end
   
   def teach
+    @knowledge << Teacher 
   end
   
   def knowledge
