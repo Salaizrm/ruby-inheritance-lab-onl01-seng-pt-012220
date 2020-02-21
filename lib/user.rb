@@ -9,7 +9,6 @@ class User
     @last_name = last_name
     @knowledge = []
     binding.pry
-    
   end
   
   def first_name
