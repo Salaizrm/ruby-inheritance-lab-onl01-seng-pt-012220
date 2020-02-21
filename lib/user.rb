@@ -9,6 +9,7 @@ class User
     @first_name = first_name
     @last_name = last_name
     @knowledge = []
+    @knowledge << self
   end
   
   def first_name
@@ -19,7 +20,8 @@ class User
     @last_name
   end
   
-  def learn 
+  def learn
+  end
   
 end
   
