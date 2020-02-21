@@ -19,9 +19,10 @@ class User
     @last_name
   end
   
-  def teach
-    Teacher.knowledge
+  def learn(string)
+    @knowledge << string
   end
+ 
   
   def knowledge
     @knowledge
