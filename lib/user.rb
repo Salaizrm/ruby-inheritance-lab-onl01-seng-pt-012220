@@ -24,7 +24,7 @@ class User
   end
   
   def knowledge
-    @knowledge.all
+    @knowledge
   end
   
 end
