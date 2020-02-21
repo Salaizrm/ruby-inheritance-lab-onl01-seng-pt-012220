@@ -22,10 +22,6 @@ class User
   def learn(string)
     @knowledge << string
   end
-  
-  def teach
-    @knowledge.sample
-  end
  
   def knowledge
     @knowledge
