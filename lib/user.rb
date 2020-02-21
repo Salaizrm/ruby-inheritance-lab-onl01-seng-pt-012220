@@ -19,7 +19,8 @@ class User
     @last_name
   end
   
-  def learn
+  def learn (knowledge)
+    
   end
   
 end
