@@ -20,7 +20,7 @@ class User
   end
   
   def learn
-    @knowledge << Student
+    Student.knowledge
   end
   
   def knowledge
