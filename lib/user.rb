@@ -24,7 +24,7 @@ class User
   end
   
   def teach
-    Teacher.sample
+    @knowledge.sample
   end
  
   def knowledge
